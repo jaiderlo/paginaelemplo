@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin: 5px 0 10px 20px;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 2px;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+    background: #7f8c8d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.agrupar {
+    border: solid #ffffff;
+    width: 960px;
+    margin: 15px auto;
+    background: white;
+}
+
+#pageheader {
+    background: #9C27B0;
+    padding: 25px 20px;
+    text-align: left;
+    color: #ffffff;
+    display: flex;
+}
+
+#mainNav {
+    background: #efeff2;
+    text-align: left;
+}
+
+#mainNav li {
+    list-style: none;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #9C27B0;
+    display: inline-block;
+    margin: 15px 0 15px 20px;
+    border-radius: 3px;
+}
+
+#mainNav li:hover {
+    background: #D500F9;
+    color: #ffffff;
+}
+
+#main {
+    margin: 20px;
+    width: 620px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#main img {
+    width: 100%;
+    height: 180px;
+}
+
+#main a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main a:hover {
+    text-decoration: underline;
+}
+
+.news {
+    width: 300px;
+    background: #f6f8f4;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.news p {
+    text-align: justify;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px 15px;
+}
+
+time {
+    color: #37c8ae;
+    font: 13px times;
+}
+
+article a {
+    margin-top: 20px;
+}
+
+#siteAds {
+    width: 275px;
+    float: left;
+    margin: 0 0 20px;
+}
+
+.columna {
+    width: 275px;
+    float: left; 
+}
+
+.columna h3 {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px;
+    margin: 15px 15px 10px 15px;
+    background: #e3dfda;
+    border-radius: 5px;
+}
+
+.columna li {
+    font-size: 12px;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.col {
+    background: #f9f8f7;
+    margin-top: 15px;
+    float: left;
+    border-radius: 5px;
+}
+
+.col p {
+    font-size: 12px;
+    margin: 15px 20px;
+    text-align: justify;
+}
+
+.ima h3 {
+    width: 245px;
+}
+
+.col img {
+    width: 235px;
+    margin: 5px 20px 15px;
+}
+
+.aviso {
+    background: #f9f8f7;
+    float: left;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.aviso img {
+    width: 235px;
+    height: 147px;
+    margin: 5px 20px 0;
+}
+
+.aviso p {
+    font-size: 12px;
+    margin: 10px 20px 15px;
+    text-align: justify;
+}
+
+#pageFooter {
+    clear: both;
+    padding: 5px;
+    background: #2d3436;
+    color: #616161;
+    font-size: 9px;
+}
+
+.marca {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.social {
+    clear: both;
+    background: #353b48;
+    padding: 10px;
+}
+
+.social p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.links a {
+    margin: 0 15px;
+}
+
+.links a img {
+    width: 40px;
+    height: 40px;
+    border: solid #ffffff;
+    border-radius: 10px;
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+.links a img:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 15px rgba(245, 246, 250,1.0);
+}
+
+
+
+
